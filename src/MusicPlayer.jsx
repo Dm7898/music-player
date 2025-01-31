@@ -69,7 +69,7 @@ export default function MusicPlayer() {
     <section className="flex flex-col gap-2 items-center justify-center h-screen">
       {songs.length > 0 ? (
         <div
-          className="lg:w-3/5 bg-white/5 flex flex-col gap-5 rounded p-2 lg:p-10 
+          className="lg:w-3/5 w-full bg-white/5 flex flex-col gap-5 rounded p-2 lg:p-10 
                      shadow-[inset_1px_1px_0.12px_rgba(255,255,255,0.4),_1px_9px_10px_rgba(0,0,0,0.1)] 
                      backdrop-blur-2xl"
         >
