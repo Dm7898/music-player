@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import musicImg from ".././public/download.png";
+import musicImg from "../public/download.png";
 import { FaRegCirclePlay, FaRegCirclePause } from "react-icons/fa6";
 import { GoFileDirectoryFill } from "react-icons/go";
 import {
