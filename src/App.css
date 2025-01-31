@@ -1,0 +1,66 @@
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.spin-animate{
+  animation: spin 2s linear infinite;
+}
+body{
+  background-color: #0049b7;
+  color: white;
+}
+
+/* ::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+} */
+.scroll-container {
+  overflow: auto;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; 
+}
+/* ::-webkit-scrollbar-thumb {
+  background-color: #4caf50;
+  border-radius: 10px;
+  border: 2px solid #f3f3f3;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #f3f3f3;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4caf50 #f3f3f3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrollbar-hidden {
+  overflow: hidden;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+ */
